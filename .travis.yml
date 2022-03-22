@@ -11,7 +11,6 @@ cache:
   directories:
     - '$HOME/.me/repository'
     - '$HOME/.gradle'
-# 빌드를 새로함
 script: "./gradlew clean build"
 
 # CI 실행 완료 시 메일로 알람
