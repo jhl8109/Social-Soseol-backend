@@ -6,7 +6,6 @@ branches:
   only:
     - main
 
-# Travis CI 서버의 HOME
 cache:
   directories:
     - '$HOME/.me/repository'
@@ -14,7 +13,6 @@ cache:
 
 script: "./gradlew clean build"
 
-# CI 실행 완료 시 메일로 알람
 notification:
   email:
     recipents:
